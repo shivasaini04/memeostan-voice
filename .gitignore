@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+
+# Local state and customer data
+voice_agent.db
+voice_agent.db-*
+*.sqlite
+*.sqlite3
+logs/
+
+# Generated media and Python cache
+greeting.wav
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local tooling
+tools/
+
+.pytest_cache/
+*.egg-info/
+.pytest_cache
+*.db
+*.db-*

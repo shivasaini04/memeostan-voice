@@ -1,0 +1,8 @@
+[project]
+name = "memeostan-voice"
+version = "0.1.0"
+description = "Experimental single-operator Exotel voice-agent starter"
+requires-python = ">=3.13,<3.15"
+license = "MIT"
+[tool.pytest.ini_options]
+testpaths = ["tests"]
